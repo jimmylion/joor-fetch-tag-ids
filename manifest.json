@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Joor List Tags Ids",
+  "description": "This extension will show the ids from the style tags created in a Joor account",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

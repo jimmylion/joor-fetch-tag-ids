@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Joor Tag Ids</title>
+    <script src="popup.js"></script>
+
+    <style>
+      
+      body {
+        width: 100%;
+        min-width: 320px;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      header {
+        background-color: #B6CED0;
+        padding: 12px 20px;
+      }
+      main {
+        padding: 20px 20px 12px;  
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+      }
+      .btn {
+        width: 100%;
+        padding: 8px 12px;
+        text-transform: uppercase;
+        border-radius: 2px;
+        background-color: #B6CED0;
+        border: 1px solid #323E48;
+        font-size: 13px;
+      }
+      table {
+        margin-top: 20px;
+      }
+      th {
+        background-color: #B6CED0;   
+        border-top: 1px solid #323E48;
+        border-bottom: 1px solid #323E48;
+        font-weight: normal;
+        text-align: left;
+      }
+      th:first-child {
+        border-left: 1px solid #323E48;
+      }
+      th:last-child {
+        border-right: 1px solid #323E48; 
+      }
+      th, td {
+        padding: 6px 10px;
+      }
+      td {
+        border-bottom: 1px solid #323E48;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <header>
+      <h1>Joor Tag Ids</h1>
+    </header>
+    <main>
+      <button class="btn" id="getTags">Get All Tags</button>
+
+      <table class="table" id="tagResults" style="display: none;" cellspacing="0">
+        <tr>
+          <th>Tag Id</th>
+          <th>Tag Name</th>
+        </tr>
+      </table>
+    </main>
+
+  </body>
+</html>
